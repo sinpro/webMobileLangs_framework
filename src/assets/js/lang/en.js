@@ -1,0 +1,128 @@
+module.exports = {
+  login:{//______登录
+    header:{
+      denglu:'login',
+    },
+    content:{
+      usernameplaceholder:'please enter mobile phone number/card number/user name',
+      passwordplaceholder:'please enter your login password',
+      denglubtn:'login',
+      wangjimima:'forgot password',
+      xinyonghuzhuce:'new user registration',
+      wenxintishi:'warm prompt',
+      wenxintishineirong:'Please log in directly with your e-bank account password'
+    },
+    footer:{
+      weixinyinhang:'WeChatbank'
+    }
+  },
+  index:{//______首页
+    header:{
+      fanhui:'back',
+      shouye:'index'
+    },
+    naver:{
+      wodezhanghu:'myaccount',
+      zhuanzhang:'transfer',
+      caifu:'wealth',
+      xinyongka:'creditcard',
+      shenghuojiaofei:'lifepaycost',
+      huangjin:'gold',
+      junengzhuan:'gettogether',
+      fudiankuaidai:'richyunnanfastloan',
+      fudiankuaixian:'richyunnanfastline',
+      gengduo:'moreandmore'
+    },
+    footer:{
+      shouye:'index',
+      licai:'Financial',
+      shenghuo:'life',
+      wode:'personal'
+    },
+  },
+  financial:{//______理财
+    header:{
+      licai:'financial'
+    },
+  },
+  life:{//______生活
+    header:{
+      shenghuo:'life'
+    },
+  },
+  personal:{//______个人
+    header:{
+      geren:'personal'
+    },
+  },
+  myaccount:{//______我的账户
+    header:{
+      wodezhanghu:'myaccount'
+    },
+    content:{
+      map:{
+        fanghua:'youth',
+        maoyaozhuan:'Demon cat travels',
+        jiqizhixue:'The blood of the machine',
+        xinlizui:'Psychological crime',
+        xunmenghuanyouji:'Coco',
+        liulangdiqiu:'Wandering the earth',
+        qita:'other',
+      },
+      weeks:{
+        xingqiyi:'Monday',
+        xingqier:'Tuesday',
+        xingqisan:'Wednesday',
+        xingqisi:'Thursday',
+        xingqiwu:'Friday',
+        xingqiliu:'Saturday',
+        xingqitian:'Sunday',
+      }
+    }
+  },
+  transfer:{//______转账
+    header:{
+      zhuanzhang:'transfer'
+    },
+  },
+  wealth:{//______财富
+    header:{
+      caifu:'wealth'
+    },
+  },
+  creditcard:{//______信用卡
+    header:{
+      xinyongka:'creditcard'
+    },
+  },
+  lifepaycost:{//______生活缴费
+    header:{
+      shenghuojiaofei:'lifepaycost'
+    },
+  },
+  gold:{//______黄金
+    header:{
+      huangjin:'gold'
+    },
+  },
+  togethermake:{//______聚能赚
+    header:{
+      junengzhuan:'togethermake'
+    },
+  },
+  richdianfastcredit:{//______富滇快贷
+    header:{
+      fudiankuaidai:'richdianfastcredit'
+    },
+  },
+  richdianfastline:{//______富滇快线
+    header:{
+      fudiankuaixian:'richdianfastline'
+    },
+  },
+  indexmore:{//______更多
+    header:{
+      gengduo:'moreandmore'
+    },
+  },
+}
